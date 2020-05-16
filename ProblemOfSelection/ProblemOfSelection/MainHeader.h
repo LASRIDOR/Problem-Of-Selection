@@ -1,4 +1,5 @@
-﻿#ifndef _MainHeader_H
+﻿
+#ifndef _MainHeader_H
 #define _MainHeader_H
 
 #include <iostream>
@@ -18,13 +19,13 @@ void cleanbuffer();
 Person* MakeArrofPersons(int* k, int* size);
 
 // for reading from file
-Person* MakeArrFromFile(char* filename,int* k,int* size);
+Person* MakeArrFromFile(char* filename, int* k, int* size);
 
-void CopyPersons(Person* destination,Person* source,int size);
-void CheckValidInput(Person* arr,int size);
+void CopyPersons(Person* destination, Person* source, int size);
+void CheckValidInput(Person* arr, int size);
 
 // Rand Selection 
-// Runtime Complications: Θ(nlogn)
+// Runtime Complications: Θ(n)
 
 Person RandSelection(Person* arr, int n, int k, int* NumComp);
 Person Select(Person* arr, int left, int right, int k, int* NumComp);
@@ -33,11 +34,11 @@ int Partition(Person* arr, int left, int right, int* NumComp);
 
 //int Partition(Person* arr, int left, int right, int* NumComp);
 
-void SwapClass(Person& p1,Person& p2);
+void SwapClass(Person& p1, Person& p2);
 void SwapClass1(Person& p1, Person& p2);
 
 // Heap "selection"
-// Runtime Complications: Θ(nlogn) for building heap (Floyd algo without dummy) + Θ(k) for k times deletemin() multiply by the Θ(logn) 
+// Runtime Complications: Θ(n) for building heap (Floyd algo) + Θ(k) for k times deletemin() multiply by the Θ(logn) 
 // = Θ(nlogn) after calculate
 
 Person selectHeap(Person* arr, int n, int k, int* NumComp);

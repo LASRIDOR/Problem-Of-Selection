@@ -12,13 +12,13 @@ Person::Person(int id, char* name){
 }
 //-----------------------------------------------------------------------------------------
 Person::Person(const Person& other) {
-//	cout << "in person(copy)" << endl; //just for check 
+//	cout << "in person(copy)" << endl; //just for check
 	this->name = nullptr;
 	*this = other;
 }
 //-----------------------------------------------------------------------------------------
 Person::Person(Person&& other) {
-//	cout << "in person(move)" << endl; //just for check 
+//	cout << "in person(move)" << endl; //just for check
 	this->name = other.name;
 	other.name = nullptr;
 	this->id = other.id;
