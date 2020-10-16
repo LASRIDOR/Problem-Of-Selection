@@ -9,13 +9,11 @@ The solutions you need to implement are:
 
 
 1) const Person & RandSelection (Person [], int k, int & NumComp)
-Implement the Selection Algorithm as shown in the reading, but when selecting the
-pivot at each step is random (using the function. (rand
+Implement the Selection Algorithm as shown in the reading, but when selecting the pivot at each step is random (using the function. (rand
 
 
 2) const Person & selectHeap (Person [], int k, int & NumComp)
-Creating a binary minimum stack from n the items realized in the array as learned
-Class (when the order is by key of course), and execute k times deleteMin
+Creating a binary minimum stack from n the items realized in the array (when the order is by key of course), and execute k times deleteMin
 (Note that here the organs are removed from the pile to find the .k organ
 No need to return them to the stack).
 
