@@ -4,23 +4,20 @@ implement a number of solutions to the selection problem Selection to investigat
 
 # Detailed description of the purpose of the exercise:
 
-The aim of the project is to implement a number of solutions to the problem of selection, Selection to investigate and analyze the differences between the various solutions in relation to Nn, k
+The aim of the project is to implement a number of solutions to the problem of selection, Selection to investigate and analyze the differences between the various solutions in relation to n, k.
 The solutions you need to implement are:
 
 
 1) const Person & RandSelection (Person [], int k, int & NumComp)
-Implement the Selection Algorithm as shown in the reading, but when selecting the pivot at each step is random (using the function. (rand
+Implement the Selection Algorithm as shown in the reading, but when selecting the pivot at each step is random (using the function rand)
 
 
 2) const Person & selectHeap (Person [], int k, int & NumComp)
-Creating a binary minimum stack from n the items realized in the array (when the order is by key of course), and execute k times deleteMin
-(Note that here the organs are removed from the pile to find the .k organ
-No need to return them to the stack).
+Creating a binary minimum stack from the n items implemented in the array as taught in class (when order is by key of course), and performing deleteMin times k (note that here the members are removed from the stack to find the .k member does not need to be returned to the stack).
 
 
 3) const Person & BST (Person [], int k, int & NumComp)
-Creating a binary search tree (normal, unbalanced) from the limbs, when inserting the limbs one by one into the tree, and then finding the k-largest limb in the tree (without lowering it
-From the tree!).
+Create a binary search tree (normal, unbalanced) from the limbs, when inserting the limbs into the tree one by one, and then finding the k-largest limb in the tree (without removing it from the tree!).
 
 # The main plan:
 
