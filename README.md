@@ -23,8 +23,7 @@ Create a binary search tree (normal, unbalanced) from the limbs, when inserting 
 
 Main function of the program:
 
-1. Read from stdin an integer,, n that denotes the number of members, and then read n pairs of numbers followed by a string, each pair in a separate row. The integer in each pair denotes a person's identity number, and the string his name.
-The program will then absorb an integer,, k which is between 1 and n.
+1. Read from stdin an integer, n, which denotes the number of members, and then call n pairs of numbers followed by a string, each pair in a separate row. The integer in each pair indicates a person's ID number, and the string his name. The program will then pick up an integer, k, which is between 1 and n.
 For example, the following input:
 3
 132 Lebron James
@@ -32,13 +31,12 @@ For example, the following input:
 313 Kevin Durant
 2
 
-It is an input of three people, with the sort key being their ID number, and the name being their satellite data. In this example, the first in the classification is, 118 the second 132 and the third.313 The user is interested in the second in the classification, i.e. 2 = k.
+It is an input of three people, with the sort key being their ID number, and the name being their satellite data. In this example, the first in sorting is 118 the second 132 and the third 313.
+The user is interested in two sorting, i.e. 2 = k.
 
-2. Run each of the three functions described above on the data series and you will receive
-From each function the number of comparisons performed and the size of the k k organ size.
+2.Run each of the three functions described above on the data series and you will get from each function the number of comparisons made and the size of the k k organ.
 
-3. Print on the screen the key and data of the person who is the organ, k and number
-The comparisons performed by each of the three functions, in the following format:
+3. Print out on the screen the key and data of the person who is the k organ, and the number of comparisons made by each of the three functions, in the following format:
 
 132 Lebron James
 
